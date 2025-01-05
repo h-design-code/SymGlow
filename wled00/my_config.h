@@ -14,13 +14,12 @@
  */
 
 // uncomment to force the compiler to show a warning to confirm that this file is included
-//#warning **** my_config.h: Settings from this file are honored ****
-
-/* Uncomment to use your WIFI settings as defaults
-  //WARNING: this will hardcode these as the default even after a factory reset
-#define CLIENT_SSID "Your_SSID"
-#define CLIENT_PASS "Your_Password"
-*/
+#warning **** my_config.h: Settings from this file are honored ****
 
 //#define MAX_LEDS 1500       // Maximum total LEDs. More than 1500 might create a low memory situation on ESP8266.
-//#define MDNS_NAME "wled"    // mDNS hostname, ie: *.local
+#define USERMOD_AUDIOREACTIVE
+#define WLED_AP_SSID_UNIQUE
+#define WLED_AP_SSID "SymGlow"
+#define WLED_AP_PASS "TooBright4U"
+#define WLED_RELEASE_NAME "SymGlow"
+#define SERVERNAME "SymGlow"
